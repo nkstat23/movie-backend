@@ -18,4 +18,21 @@ user interagisse avec l'api en uitlisant un SDK (package python fcailote l'acces
 
 Definir les classe de notre modele de avec sqlalchemy
 
+on va utiliser python pour communiquer avec notre base
+
+
+## pour tester la connexion a la base de donnees, on execute le code suivant:
+if __name__ == "__main__":
+    try :
+        with engine.connect() as connection:
+            print("Connexion a la base de donnees reussie!")
+    except Exception as e:
+        print("Erreur de connexion a la base de donnees:", e)
+
+## ecrire les classe python qui vont re les table sqlite
+
+
+
+
+
 
