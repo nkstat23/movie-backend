@@ -6,4 +6,16 @@ Sqlalchamy communiquer avec la dadabase en matiere pythonique,
 SQLite est une base de s=donnees embarquee on peut use MySQL et PostgreSQL voila pourquoi l'api engloge tout cela.
 l;api envoie les requette de la bd
 
-user interagisse avec l'api en uitlisant un SDK (package python fcailote l'acces l'api) envoie les requette elle [assde d'abord par pydantic ensuite le controleur API (fastapi) recoit les requettes il est au cœur du système et decide ce qu'il faut faire ensuite une couche plus prêt qui est sql slchelmy il va permettre de communiquer avec la base de donnees dans un style "pythonique" traduit les instruction python en compresnsion de la base de donnees.                  
+user interagisse avec l'api en uitlisant un SDK (package python fcailote l'acces l'api) envoie les requette elle [assde d'abord par pydantic ensuite le controleur API (fastapi) recoit les requettes il est au cœur du système et decide ce qu'il faut faire ensuite une couche plus prêt qui est sql slchelmy il va permettre de communiquer avec la base de donnees dans un style "pythonique" traduit les instruction python en compresnsion de la base de donnees.  
+
+
+# les base de la POO
+
+# les classe (reprsente ldes tables SQlite)
+# les attributs
+# les methodes
+# les object
+
+Definir les classe de notre modele de avec sqlalchemy
+
+
