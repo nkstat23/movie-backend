@@ -16,15 +16,17 @@ def fetch_global_stats():
         return response.json()
     except:
         return None
-
+@st.cache_data(ttl=60)
 def fetch_borough_stats():
     response = requests.get(f"{API_URL}/stats/boroughs")
     return pd.DataFrame(response.json())
 
+@st.cache_data(ttl=60)
 def fetch_cuisine_stats():
     response = requests.get(f"{API_URL}/stats/cuisines")
     return pd.DataFrame(response.json())
 
+@st.cache_data(ttl=60)
 def fetch_restaurants(borough_filter):
     response = requests.get(f"{API_URL}/restaurants", params={"borough": borough_filter, "limit": 50})
     return pd.DataFrame(response.json())
