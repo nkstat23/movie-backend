@@ -7,3 +7,6 @@ requests
 plotly
 python-dotenv
 pydantic
+scikit-learn
+numpy
+joblib
